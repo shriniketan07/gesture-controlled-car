@@ -18,7 +18,7 @@ Battery: Powers the ESP32 and motor driver.
 Jumper Wires: For connections between components.
 
 ## Wiring Diagram
-Here’s a basic wiring diagram for connecting the ESP32, MPU6050, and motor driver:
+
 ![transmitter](transmitter.jpg)
 
 ## MPU6050 (Accelerometer):
@@ -28,7 +28,7 @@ Here’s a basic wiring diagram for connecting the ESP32, MPU6050, and motor dri
 - SDA → GPIO 21 on ESP32
 - SCL → GPIO 22 on ESP32
 
-
+![reciver](reciver.jpg)
 ## L298N Motor Driver:
 
 - IN1 → GPIO 32 (Control for Motor 1)
