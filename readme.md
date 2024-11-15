@@ -19,6 +19,7 @@ Jumper Wires: For connections between components.
 
 ## Wiring Diagram
 Here’s a basic wiring diagram for connecting the ESP32, MPU6050, and motor driver:
+![Car in Action]()
 
 ## MPU6050 (Accelerometer):
 
