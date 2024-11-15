@@ -41,6 +41,6 @@ Here’s a basic wiring diagram for connecting the ESP32, MPU6050, and motor dri
 - DC Motors: Connect to the motor driver outputs
 
 ## Libraries Used
-Wire: I2C communication for connecting ESP32 with the MPU6050.
-MPU6050: Library to interface with the accelerometer.
-ESP32 Servo: If you wish to add servos for extra control.
+- Wire: I2C communication for connecting ESP32 with the MPU6050.
+- MPU6050: Library to interface with the accelerometer.
+- ESP32 Servo: If you wish to add servos for extra control.
