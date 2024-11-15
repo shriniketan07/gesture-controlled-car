@@ -28,7 +28,7 @@ Here’s a basic wiring diagram for connecting the ESP32, MPU6050, and motor dri
 - SCL → GPIO 22 on ESP32
 
 
-##L298N Motor Driver:
+## L298N Motor Driver:
 
 - IN1 → GPIO 32 (Control for Motor 1)
 - IN2 → GPIO 33 (Control for Motor 1)
