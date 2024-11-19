@@ -37,7 +37,7 @@ void OnDataRecv(const esp_now_recv_info_t *recv_info, const uint8_t *incomingDat
     left  = data.l;
     right = data.r;
 
-        // Optional: Print received data for debugging
+       // Optional: Print received data for debugging
        // Serial.print("Received Data - Front: ");
        // Serial.print(front);
        // Serial.print(", Back: ");
@@ -72,7 +72,8 @@ void setup() {
   // Initialize ESP-NOW
   if (esp_now_init() != ESP_OK) {
     Serial.println("Error initializing ESP-NOW");
-    // Retry initialization after a delay
+  // Retry initialization after a delay
+  
     ESP.restart();
   } else {
     Serial.println("ESP-NOW Initialized Successfully");
