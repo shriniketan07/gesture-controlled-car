@@ -23,7 +23,7 @@ Jumper Wires: For connections between components.
 
 ## MPU6050 (Accelerometer):
 
-- VCC → 3.3V on ESP32
+- VCC → VIN on ESP32
 - GND → GND on ESP32
 - SDA → GPIO 21 on ESP32
 - SCL → GPIO 22 on ESP32
